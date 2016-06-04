@@ -13,7 +13,7 @@ package zadanie_6;
 public class zadanie_6 {//​площадь кольца 
     public static void main(String[] args) {
 
-	float s2 = 3.1415f; //π - число пи (3.1415)
+	//float s2 = 3.1415f; //π - число пи (3.1415)
         
         int r = 4; //Радиус (r): изменяемое значение переменной
             r *= 2;
@@ -21,7 +21,7 @@ public class zadanie_6 {//​площадь кольца
         int R = 6; //Радиус (r): изменяемое значение переменной
             R *= 2;
         
-        double S =  s2*(R-r);
+        double S =  Math.PI*(R-r);
         
 	System.out.println(S);
 
